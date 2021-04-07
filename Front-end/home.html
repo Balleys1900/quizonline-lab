@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/searchForm.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/manageQuizAdmin.css">
+
+    <title>HOME</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="#" class="logo">Quiz Online</a>
+        <div class="header-right">
+            <a class="active" href="#">Home</a>
+            <a href="#">Log out</a>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <form class="example" action="">
+                    <input type="text" placeholder="Search By Question Name.." name="searchQuestionNameValue" />
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Subject
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">PRJ321</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">PRJ311</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Status
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Active</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Inactive</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;"></div>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Question 1</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+
+
+            <div class="groupAnswer">
+                <div style="margin-top: 10px;"></div>
+
+                <div class="input-group-prepend">
+                    <span style="color: green;font-size: 18px;" class="input-group-text" id="inputGroup-sizing-lg">Content Answer</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+
+
+            </div>
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span style="color: blue;" class="input-group-text" id="inputGroup-sizing-lg">Answer Correct</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">
+                    Status And Subject
+                </div>
+                <div class="card-body">
+                    Status
+                    <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    Subject
+                    <select class="custom-select">
+
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="btn btn-primary btn-lg" style="font-weight: bold;">Update</a>
+                    <a  class="btn btn-danger btn-lg" style="font-weight: bold;">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="background-color: black;">
+    
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Question 1</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+
+
+            <div class="groupAnswer">
+                <input class="p-3 mb-2 bg-primary text-white" type="text" name="" value="C">
+                <input type="text" name="" value="A">
+                <input type="text" name="" value="B">
+                <input type="text" name="" value="D">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">
+                    Status And Subject
+                </div>
+                <div class="card-body">
+                    Status
+                    <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    Subject
+                    <select class="custom-select">
+
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    <button type="button" class="btn btn-primary btn-lg" style="font-weight: bold;">Update</button>
+                    <button type="button" class="btn btn-danger btn-lg" style="font-weight: bold;">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="background-color: black;">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Question 1</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+
+
+            <div class="groupAnswer">
+                <input class="p-3 mb-2 bg-primary text-white" type="text" name="" value="C">
+                <input type="text" name="" value="A">
+                <input type="text" name="" value="B">
+                <input type="text" name="" value="D">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">
+                    Status And Subject
+                </div>
+                <div class="card-body">
+                    Status
+                    <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    Subject
+                    <select class="custom-select">
+
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    <button type="button" class="btn btn-primary btn-lg" style="font-weight: bold;">Update</button>
+                    <button type="button" class="btn btn-danger btn-lg" style="font-weight: bold;">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="background-color: black;">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Question 1</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+
+
+            <div class="groupAnswer">
+                <input class="p-3 mb-2 bg-primary text-white" type="text" name="" value="C">
+                <input type="text" name="" value="A">
+                <input type="text" name="" value="B">
+                <input type="text" name="" value="D">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">
+                    Status And Subject
+                </div>
+                <div class="card-body">
+                    Status
+                    <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    Subject
+                    <select class="custom-select">
+
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    <button type="button" class="btn btn-primary btn-lg" style="font-weight: bold;">Update</button>
+                    <button type="button" class="btn btn-danger btn-lg" style="font-weight: bold;">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="background-color: black;">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Question 1</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    value="What Your Name?">
+            </div>
+
+
+            <div class="groupAnswer">
+                <input class="p-3 mb-2 bg-primary text-white" type="text" name="" value="C">
+                <input type="text" name="" value="A">
+                <input type="text" name="" value="B">
+                <input type="text" name="" value="D">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">
+                    Status And Subject
+                </div>
+                <div class="card-body">
+                    Status
+                    <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    Subject
+                    <select class="custom-select">
+
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <div class="dropdown-divider"></div>
+
+                    <button type="button" class="btn btn-primary btn-lg" style="font-weight: bold;">Update</button>
+                    <button type="button" class="btn btn-danger btn-lg" style="font-weight: bold;">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 40px;"></div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
